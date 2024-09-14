@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Poll</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: white;
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            margin: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vote for Your Favorite Feature</h1>
+    <button onclick="vote('Feature 1')">Feature 1</button>
+    <button onclick="vote('Feature 2')">Feature 2</button>
+    <button onclick="vote('Feature 3')">Feature 3</button>
+
+    <script>
+        function vote(feature) {
+            console.log('Vote for ' + feature);  // Replace this with real functionality if needed
+        }
+    </script>
+</body>
+</html>
